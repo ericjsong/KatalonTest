@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KatalonFirstTest,Chrome 86.0.4240.80,,,2020-10-22 11:07:06,2020-10-22 11:07:45,39.499s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Chrome 86.0.4240.80,,,2020-10-22 11:07:06,2020-10-22 11:07:45,39.104s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.80,,,2020-10-22 11:07:07,2020-10-22 11:07:10,3.029s,PASSED
+"navigateToUrl(""https://sso.statflo.com/realms/CRM/protocol/openid-connect/auth?response_type=code&client_id=login-app&redirect_uri=https%3A%2F%2Fapp.statflo.com%2Fsso%2Flogin&state=4f1d526b-538e-46f8-92ef-1997fda3e20c&login=true&scope=openid"")",Chrome 86.0.4240.80,,,2020-10-22 11:07:10,2020-10-22 11:07:11,0.798s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Statflo/input_Email_username""), ""eric@statflo.com"")",Chrome 86.0.4240.80,,,2020-10-22 11:07:11,2020-10-22 11:07:11,0.363s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Statflo/input_Forgot Password_password""), ""Aopk/MjAlo5/xta9yiC+Jw=="")",Chrome 86.0.4240.80,,,2020-10-22 11:07:11,2020-10-22 11:07:11,0.317s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Login  Statflo/input_Forgot Password_password""), Keys.chord(ENTER))",Chrome 86.0.4240.80,,,2020-10-22 11:07:11,2020-10-22 11:07:12,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Howdy Eric - Statflo/div_3157 accounts left to goal""))",Chrome 86.0.4240.80,,,2020-10-22 11:07:12,2020-10-22 11:07:45,33.556s,FAILED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KatalonFirstTest,Firefox 72.0,,,2020-10-22 11:57:30,2020-10-22 11:58:13,42.860s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Firefox 72.0,,,2020-10-22 11:57:30,2020-10-22 11:58:13,42.580s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-10-22 11:57:30,2020-10-22 11:57:38,7.929s,PASSED
+"navigateToUrl(""https://sso.statflo.com/realms/CRM/protocol/openid-connect/auth?response_type=code&client_id=login-app&redirect_uri=https%3A%2F%2Fapp.statflo.com%2Fsso%2Flogin&state=4f1d526b-538e-46f8-92ef-1997fda3e20c&login=true&scope=openid"")",Firefox 72.0,,,2020-10-22 11:57:38,2020-10-22 11:57:39,0.762s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Statflo/input_Email_username""), ""eric@statflo.com"")",Firefox 72.0,,,2020-10-22 11:57:39,2020-10-22 11:57:41,1.466s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Statflo/input_Forgot Password_password""), ""Aopk/MjAlo5/xta9yiC+Jw=="")",Firefox 72.0,,,2020-10-22 11:57:41,2020-10-22 11:57:41,0.347s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Login  Statflo/input_Forgot Password_password""), Keys.chord(ENTER))",Firefox 72.0,,,2020-10-22 11:57:41,2020-10-22 11:57:41,0.295s,PASSED
+"click(findTestObject(""Object Repository/Page_Howdy Eric - Statflo/div_3157 accounts left to goal""))",Firefox 72.0,,,2020-10-22 11:57:41,2020-10-22 11:58:13,31.426s,FAILED
