@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        docker { image 'katalonstudio/katalon:7.7.2' }
+        docker {
+            image 'katalonstudio/katalon'
+            args "-u root"
+            }
     }
     stages {
         stage('Test') {
