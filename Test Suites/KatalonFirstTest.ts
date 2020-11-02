@@ -12,9 +12,9 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f78e207f-7d5a-43d0-b27c-abb71af52ffd</testSuiteGuid>
    <testCaseLink>
-      <guid>660170d7-2a78-4ddb-98f7-797e1f730642</guid>
+      <guid>5532b5d7-772a-4321-82bc-bd3933942208</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/New Test Case</testCaseId>
+      <testCaseId>Test Cases/LoginTest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
