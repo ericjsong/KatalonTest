@@ -9,6 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -24,20 +25,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Login  Statflo/input_Email_
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Statflo/input_Forgot Password_password'), 'Aopk/MjAlo5/xta9yiC+Jw==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Login  Statflo/input_Forgot Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Login  Statflo/input_Forgot Password_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Howdy Eric - Statflo/div_3157 accounts left to goal'))
+WebUI.click(findTestObject('Object Repository/Page_Good Day, Eric - Statflo/img_Good Day, Eric_avatar_icon'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Smart Lists - Statflo/select_AllCAR-1CAR-2Cell BrokerageDefaultGo_d3e1f8'), 
-    '7', true)
+WebUI.click(findTestObject('Object Repository/Page_Good Day, Eric - Statflo/span_Log Out'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Smart Lists - Statflo/select_AllAKD1CTXD1CTXD2SCAD1SCAD2SCAD3SCAD_083c2e'), 
-    '152', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Smart Lists - Statflo/select_October 2020September 2020August 202_d12fc1'), 
-    '2020-09', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Smart Lists - Statflo/a_Apply'))
+WebUI.click(findTestObject('Object Repository/Page_Good Day, Eric - Statflo/a_Logout'))
 
 WebUI.closeBrowser()
 
